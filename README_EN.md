@@ -1,6 +1,6 @@
 # GOAT Academic Writing Skills
 
-A universal, top-tier academic paper writing, polishing, and aesthetic LaTeX formatting skill suite designed for researchers and AI coding agents (Claude Code, Codex, Cursor, Gemini, etc.). It empowers authors to build Oral-level scholarly narratives, eliminate defensive hedging and AI writing tells, guarantee citation authenticity through 1st/2nd-degree reference tracing and live web verification, and achieve dense, publication-grade page layouts.
+A universal, top-tier academic paper writing, polishing, and aesthetic LaTeX formatting skill suite designed for researchers and AI coding agents (Claude Code, ChatGPT Codex, Cursor, Gemini, Doubao, Qwen, etc.). It empowers authors to build Oral-level scholarly narratives, eliminate defensive hedging and AI writing tells, guarantee citation authenticity through 1st/2nd-degree reference tracing and live web verification, and achieve dense, publication-grade page layouts.
 
 ---
 
@@ -26,7 +26,7 @@ A universal, top-tier academic paper writing, polishing, and aesthetic LaTeX for
 
 ## 🚀 Quick Start Guide
 
-### ✨ Option 1: Mount in AI Coding Agents (Claude Code / Codex / Cursor)
+### ✨ Option 1: Mount in AI Coding Agents (Claude Code / ChatGPT Codex / Cursor / Gemini / Doubao / Qwen)
 Place `SKILL_EN.md` or `SKILL_ZH.md` into your agent's skill directory (e.g., `.claude/skills/goat-academic-writing-skills/SKILL.md`, or include it in `CLAUDE.md` / `.cursorrules` at your project root) so the agent automatically applies these rules whenever drafting prose, verifying `.bib` files, or adjusting LaTeX layouts.
 
 ### ✨ Option 2: Ready-to-Use Prompt Templates
