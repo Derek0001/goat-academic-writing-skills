@@ -3,55 +3,55 @@
 </p>
 
 <p align="center">
-  <a href="README_EN.md">English</a> · <a href="README_ZH.md">简体中文</a>
+  <a href="README_ZH.md">简体中文</a> · <a href="README_EN.md">English</a>
 </p>
 
-# GOAT Academic Writing Skills (`goat-academic-writing-skills`)
+# GOAT学术论文写作与美观排版专家技能
 
-A universal, top-tier academic paper writing, polishing, and aesthetic LaTeX formatting skill suite designed for researchers and AI coding agents (Claude Code, Codex, Cursor, Gemini, etc.). It empowers authors to build Oral-level scholarly narratives, eliminate defensive hedging and AI writing tells, guarantee citation authenticity through 1st/2nd-degree reference tracing and live web verification, and achieve dense, publication-grade page layouts.
+一套面向科研工作者与 AI 编程助手（Claude Code、Codex、Cursor、Gemini 等）的通用顶会顶刊论文写作、润色与美观排版专家技能库。本工具致力于帮助作者构建极具说服力的获奖级人类学术叙事，消除防御性退缩表达与 AI 生成痕迹，通过一度/二度文献溯源与联网真伪核验筑牢学术规范，并以紧凑饱满的版面美学完成 LaTeX 终稿精修。
 
 ---
 
-## 🎯 Four Core Problems Solved
+## 🎯 核心解决的四大痛点
 
-| Common Pain Point | `goat-academic-writing-skills` Solution |
+| 常见痛点 | `goat-academic-writing-skills` 解决方案 |
 | :--- | :--- |
-| **1. Unfocused Narrative & Track Mismatch** | Establishes a direct 4-step Abstract flow (**Current Progress $\rightarrow$ Unsolved Problem $\rightarrow$ Specific Aspects of Improvement/Categorization $\rightarrow$ Achieved Effect**); expands the Introduction naturally in three parts ending with bulleted contributions; moves non-core hardware/engineering setups to the Appendix. |
-| **2. Defensive & Apologetic Writing** | Strictly bans weak hedges (`unavailable`, `obtained merely from`, `cannot be certain due to lack of`, `does not aim to`); replaces apologetic caveats with **positive boundary scoping**; replaces row-by-row table recitation with insight-driven discussion. |
-| **3. AI Punctuation Tells, Repetitive Words & Fake Citations** | **Replaces >95% of semicolons (`;`) and colons (`:`)** with periods or commas; integrates cross-references (`Figure X`, `Table Y`) directly as sentence subjects or objects; **enforces unambiguous, domain-standard technical terms while varying general words like `effective` with synonyms to avoid intra-paragraph repetition**; traces **1st- and 2nd-degree citations** and enforces **100% live web verification**. |
-| **4. Loose Layout, Large Blank Spaces & Page Flipping** | Supports **reference file paths** for figures, tables, and style files; enforces **aesthetic paragraph arrangement** (eliminating $<20\%$ widow lines and keeping line widths $\ge 80\%$ full); limits subheadings to $\le 5$ words; **minimizes figure/table-to-text spacing without overlap to avoid large blank gaps**, placing floats on the exact page of mention within the venue's page limit. |
+| **1. 叙事散乱、偏离赛道** | 建立**“领域发展现状 $\rightarrow$ 尚未解决痛点 $\rightarrow$ 具体改进/分类方面 $\rightarrow$ 最终效果”**的直观四步摘要结构；引言采用三段式自然扩充并配合 Bullet Items 直观展示贡献；剥离非核心硬件/工程细节至附录，严防审稿人预期偏差。 |
+| **2. 防御性退缩与道歉式写作** | 全面封杀 `unavailable`、“仅仅由……得到”、“缺少……所以不能肯定”、“并非旨在”等弱势词汇；用**正向成立条件界定**替代自我怀疑；采用“少量代表性数据 + 趋势机理剖析”替代机械罗列表格数据。 |
+| **3. AI 标点泛滥、词汇单调与虚假文献** | **清除 95% 以上的分号（`;`）与冒号（`:`）**；将图表超链接作为句子主语或宾语无缝嵌入；**专业术语符合领域标准且无歧义，同时对 `effective` 等普通词汇进行同义词替换避免同段重复**；基于核心文献的一度/二度关系找齐引用并执行 **100% 联网真实性核验**。 |
+| **4. 排版松散、大片留空与翻页对照** | 支持**指定参考图/表/文文件路径**对齐格式；实现**段落编排更美观**（消除 $<20\%$ 孤词尾行，使行宽饱满达 80% 以上）；分析小标题控制在 5 词以内不换行；**在美观清晰不重叠的前提下尽可能缩小图表与文字间隙，避免大片留空**，实现图文零翻页就近排布并严格控制在正文篇幅上限内。 |
 
 ---
 
-## 📁 Repository Contents
+## 📁 仓库文件说明
 
-- `SKILL_EN.md`: Full English specification for academic writing and aesthetic formatting.
-- `SKILL_ZH.md`: Full Chinese specification for academic writing and aesthetic formatting.
-- `README_EN.md`: English quick-start guide and ready-to-use prompt templates.
-- `README_ZH.md`: Chinese quick-start guide and ready-to-use prompt templates.
+- `SKILL_ZH.md`：中文版完整学术写作与美观排版技能规范。
+- `SKILL_EN.md`：英文版完整学术写作与美观排版技能规范（推荐在直接修改英文 LaTeX 源码时挂载）。
+- `README_ZH.md`：中文版快速上手指南与常用 Prompt 模板。
+- `README_EN.md`：英文版快速上手指南与常用 Prompt 模板。
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 快速使用方法
 
-### ✨ Option 1: Mount in AI Coding Agents (Claude Code / Codex / Cursor)
-Place `SKILL_EN.md` or `SKILL_ZH.md` into your agent's skill directory (e.g., `.claude/skills/goat-academic-writing-skills/SKILL.md`, or include it in `CLAUDE.md` / `.cursorrules` at your project root) so the agent automatically applies these rules whenever drafting prose, verifying `.bib` files, or adjusting LaTeX layouts.
+### ✨ 方式一：挂载至 AI 编程助手（Claude Code / Codex / Cursor）
+将 `SKILL_ZH.md` 或 `SKILL_EN.md` 放入项目的技能目录（例如 `.claude/skills/goat-academic-writing-skills/SKILL.md`，或写入项目根目录的 `CLAUDE.md` / `.cursorrules`），AI 助手在撰写正文、润色语句、核查 `.bib` 文献及调整 LaTeX 排版时将自动执行全部准则。
 
-### ✨ Option 2: Ready-to-Use Prompt Templates
+### ✨ 方式二：开箱即用指令模板 (Copy-Paste Prompts)
 
-#### 🎉 Scenario 1: Drafting or Rewriting Abstract & Introduction
-> Using Pillar 1 of `goat-academic-writing-skills`, please rewrite the Abstract and Introduction of `main.tex`:
-> 1. **Abstract**: Follow the 4-step flow (current progress in the field $\rightarrow$ unsolved core problem $\rightarrow$ specific aspects of our improvement/categorization $\rightarrow$ achieved performance), without any defensive *"This paper does not aim to..."* phrasing.
-> 2. **Introduction**: Expand the Abstract in three parts—background evolution (with clustered citations), pros/cons of prior work and core bottlenecks, and our specific innovations—concluding with 3 clear bullet points summarizing our contributions.
+#### 🎉 场景 1：撰写或重写摘要（Abstract）与引言（Introduction）
+> 请加载 `goat-academic-writing-skills` 规范，重写 `main.tex` 的 Abstract 和 Introduction：
+> 1. **Abstract**：按“当前领域发展现状 $\rightarrow$ 尚未解决的核心问题 $\rightarrow$ 本文具体从哪几个方面进行了改进或分类 $\rightarrow$ 最终达到了什么效果”展开，严禁出现“并非旨在……”等防御性表述。
+> 2. **Introduction**：作为摘要的三段式自然扩充，开篇交代背景演进并对经典工作打包群引，中间剖析现有工作的优劣与认知盲区，最后阐述本文创新点并用 3 个 Bullet Items 直观总结核心贡献。
 
-#### 🔍 Scenario 2: De-AI Polishing, Lexical Variety & Live Citation Audit
-> Apply Pillars 2 and 3 of `goat-academic-writing-skills` to audit and polish `main.tex` and `references.bib`:
-> 1. Remove all defensive words (`unavailable`, `seems to`, etc.) and reframe limitations as positive scope boundaries.
-> 2. Replace over 95% of semicolons and colons with periods or commas, and integrate parenthetical references like `(Figure X)` directly as sentence subjects or objects.
-> 3. Ensure all technical terms are domain-standard, unambiguous, and globally consistent, while replacing repeated general words (such as `effective`, `show`, `improve`) with natural synonyms so no general word is repeated multiple times within the same paragraph.
-> 4. Trace 1st- and 2nd-degree citations around our core references to fill any missing related work, and **verify every `.bib` entry via live web search** (title, authors, year, venue) to eliminate any hallucinated references.
+#### 🔍 场景 2：全文去 AI 痕迹、同义词丰富化与文献联网防伪核验
+> 请根据 `goat-academic-writing-skills` 的第二、三部分准则，对 `main.tex` 和 `references.bib` 进行全面精修：
+> 1. 清除所有 `unavailable`、`seems to` 等防御性表述，改为客观的正向范围界定；
+> 2. 将全文 95% 以上的分号和冒号替换为句号或逗号，并将 `(Figure X)` 等括号式引用改写为句子的主语或宾语；
+> 3. 确保全文专业术语符合领域标准、无歧义且前后严格统一，同时对同一段落内重复出现的 `effective`、`show`、`improve` 等普通词汇进行同义词替换，提升遣词造句丰富度；
+> 4. 通过核心文献的一度和二度引用关系找齐遗漏的相关工作，并**联网逐条核验 `.bib` 中所有文献的标题、作者、年份和刊物真实性**，杜绝任何虚假引用。
 
-#### 🎨 Scenario 3: Reference-Guided Formatting, Aesthetic Paragraphs & Compact Float Spacing
-> Apply Pillar 4 of `goat-academic-writing-skills` for final aesthetic formatting on `main.tex` (Reference figure: `/path/to/ref_figure.pdf`, reference TeX: `/path/to/ref_paper.tex`, official style directory: `/path/to/official_style/`):
-> 1. **Aesthetic Paragraph Arrangement**: Eliminate trailing widow lines shorter than 20% width by lightly editing secondary words, keep lines at least 80% full, and shorten all analytical subsection titles to $\le 5$ words without line wrapping.
-> 2. **Compact Spacing & Page Limit**: Place figures and tables on the same page where they are first cited, **make the vertical gap between figures/tables and text as small as possible while remaining clean and non-overlapping to avoid large blank spaces**, and ensure the main text fits strictly within the venue's page limit.
+#### 🎨 场景 3：参考文件路径对齐、段落美观编排与紧凑图文间距收尾
+> 请严格按照 `goat-academic-writing-skills` 第四部分准则，对论文进行最终美观排版（参考图像路径：`/path/to/ref_figure.pdf`，参考源码路径：`/path/to/ref_paper.tex`，官方模板目录：`/path/to/official_style/`）：
+> 1. **段落编排更美观**：微调非核心语句与普通同义词，消除不足 20% 行宽的孤词尾行，使每行文字饱满占据 80% 以上行宽，并确保所有分析小标题不超过 5 个英文单词、单行不折行；
+> 2. **紧凑间隙与零翻页排布**：调整图表位置使其紧贴首次提及的正文所在页，**在美观清晰不重叠的前提下尽可能缩小图表与文字之间的间隙，避免大片留空**，并将正文严格控制在目标会议规定的页数上限内。

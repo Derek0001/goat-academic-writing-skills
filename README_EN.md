@@ -1,4 +1,4 @@
-# GOAT Academic Writing Skills (`goat-academic-writing-skills`)
+# GOAT Academic Writing Skills
 
 A universal, top-tier academic paper writing, polishing, and aesthetic LaTeX formatting skill suite designed for researchers and AI coding agents (Claude Code, Codex, Cursor, Gemini, etc.). It empowers authors to build Oral-level scholarly narratives, eliminate defensive hedging and AI writing tells, guarantee citation authenticity through 1st/2nd-degree reference tracing and live web verification, and achieve dense, publication-grade page layouts.
 

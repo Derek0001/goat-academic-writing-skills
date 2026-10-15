@@ -1,4 +1,4 @@
-# GOAT Academic Writing Skills (`goat-academic-writing-skills`)
+# GOAT学术论文写作与美观排版专家技能
 
 一套面向科研工作者与 AI 编程助手（Claude Code、Codex、Cursor、Gemini 等）的通用顶会顶刊论文写作、润色与美观排版专家技能库。本工具致力于帮助作者构建极具说服力的获奖级人类学术叙事，消除防御性退缩表达与 AI 生成痕迹，通过一度/二度文献溯源与联网真伪核验筑牢学术规范，并以紧凑饱满的版面美学完成 LaTeX 终稿精修。
 
